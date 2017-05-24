@@ -1,0 +1,137 @@
+PODS:
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - Cartography (0.7.0)
+  - Crashlytics (3.8.4):
+    - Fabric (~> 1.6.3)
+  - CVCalendar (1.2.9)
+  - DynamicColor (2.4.0)
+  - EasyTipView (0.1.4)
+  - EDSunriseSet (1.0)
+  - Fabric (1.6.11)
+  - FBSDKCoreKit (4.21.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.21.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.21.0):
+    - FBSDKCoreKit
+  - FontBlaster (2.1.5)
+  - FXPageControl (1.5)
+  - KMPlaceholderTextView (1.2.2)
+  - Parse (1.14.4):
+    - Bolts/Tasks (~> 1.8)
+  - ParseFacebookUtilsV4 (1.11.1):
+    - Bolts/Tasks (>= 1.6)
+    - FBSDKCoreKit (~> 4.10)
+    - FBSDKLoginKit (~> 4.10)
+    - FBSDKTVOSKit (~> 4.10)
+    - Parse (~> 1.12)
+  - ReachabilitySwift (2.4)
+  - ReactiveCocoa (4.2.2):
+    - Result (~> 2.0)
+  - Result (2.1.3)
+  - Reusable (2.5.1):
+    - Reusable/Storyboard (= 2.5.1)
+    - Reusable/View (= 2.5.1)
+  - Reusable/Storyboard (2.5.1)
+  - Reusable/View (2.5.1)
+  - SCLAlertView (0.5.1)
+  - Sugar (1.0.0)
+  - SVProgressHUD (2.0)
+  - TPKeyboardAvoiding (1.3.1)
+  - Transporter (2.0.1)
+  - VK-ios-sdk (1.4.6)
+  - Whisper (2.1)
+  - XCGLogger (3.6.0)
+
+DEPENDENCIES:
+  - Cartography (~> 0.7)
+  - Crashlytics
+  - CVCalendar (from `https://github.com/Binur/CVCalendar`)
+  - DynamicColor (~> 2.4)
+  - EasyTipView (from `https://github.com/Binur/EasyTipView.git`)
+  - EDSunriseSet (~> 1.0)
+  - Fabric
+  - FBSDKCoreKit (~> 4.10)
+  - FBSDKLoginKit (~> 4.10)
+  - FBSDKShareKit (~> 4.10)
+  - FontBlaster (from `https://github.com/ArtSabintsev/FontBlaster.git`, branch `swift2.3`)
+  - FXPageControl (~> 1.4)
+  - KMPlaceholderTextView (= 1.2.2)
+  - Parse (~> 1.14)
+  - ParseFacebookUtilsV4 (~> 1.11)
+  - ReachabilitySwift (from `https://github.com/ashleymills/Reachability.swift.git`, branch `swift-2.3`)
+  - ReactiveCocoa (~> 4.0)
+  - Reusable (~> 2.2)
+  - SCLAlertView (= 0.5.1)
+  - Sugar (= 1.0)
+  - SVProgressHUD (= 2.0)
+  - TPKeyboardAvoiding (~> 1.2)
+  - Transporter (~> 2.0)
+  - VK-ios-sdk (~> 1.3)
+  - Whisper (~> 2.1)
+  - XCGLogger (~> 3.2)
+
+EXTERNAL SOURCES:
+  CVCalendar:
+    :git: https://github.com/Binur/CVCalendar
+  EasyTipView:
+    :git: https://github.com/Binur/EasyTipView.git
+  FontBlaster:
+    :branch: swift2.3
+    :git: https://github.com/ArtSabintsev/FontBlaster.git
+  ReachabilitySwift:
+    :branch: swift-2.3
+    :git: https://github.com/ashleymills/Reachability.swift.git
+
+CHECKOUT OPTIONS:
+  CVCalendar:
+    :commit: 7bd05fb73937c3c6d7546561f1e73b7f680b68b7
+    :git: https://github.com/Binur/CVCalendar
+  EasyTipView:
+    :commit: ba5e959ab33c8652882e19dfdb0bea653e165f1f
+    :git: https://github.com/Binur/EasyTipView.git
+  FontBlaster:
+    :commit: d1e888e660659bb776e560fb8f01e5493ce0f840
+    :git: https://github.com/ArtSabintsev/FontBlaster.git
+  ReachabilitySwift:
+    :commit: 833482f68b0904b9cdd6abea7e4f146a06627a48
+    :git: https://github.com/ashleymills/Reachability.swift.git
+
+SPEC CHECKSUMS:
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  Cartography: dd6044b6fe352252f68b648df5bff47841e591cc
+  Crashlytics: 79e236942ca1e7fc641df1feb9a275360a78ab6a
+  CVCalendar: 0799256e0bc3b43e83b7e86c0729ce9ff0624cb6
+  DynamicColor: 2f3fd61053684667bad9f03045dcf9a2a5a007ea
+  EasyTipView: 8938007882416faf655d40bd7b0b83bf73783724
+  EDSunriseSet: bdc4760f496c8e6f9b9a727ffa645b6048aa2a09
+  Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
+  FBSDKCoreKit: 8a372ab194b5c7c26355c1920ef52dbeb44bc222
+  FBSDKLoginKit: a1a5f4b4ac445823a020fbeeaf5f03714a67ff9c
+  FBSDKShareKit: 649a7acfd01a3e056a33994c1bfbb997814cc8a2
+  FontBlaster: e8f06741281040aef1a73fbcdc5a5c3a1b7a3e0e
+  FXPageControl: 97620412515365d10a3282ec0660f49f6401a8f0
+  KMPlaceholderTextView: bbff031935d84f7eedb585e7f77120020fbae9e8
+  Parse: b0aa91d2c435e53d4a9af26e741e014c9b35c42e
+  ParseFacebookUtilsV4: 2f30c2b7021c8005d3042781da7ef87d06589421
+  ReachabilitySwift: dc7452dab85ff881904215e1a113326ad8d07beb
+  ReactiveCocoa: 72263e7ac0770c274617ccd345e01049d0ca38ae
+  Result: 18e1a7597fbcca5923c565b40a25a98afafdee02
+  Reusable: 093546cefed77fd939ddfd681f499f059c1027a2
+  SCLAlertView: 3ac39a863d3e10fc165662b1228b03402297aea9
+  Sugar: 7191a36d6b567d65ba4ac7c67b1684ca0554fec5
+  SVProgressHUD: e9e7c893686a20da55a28015ed384d9425e15479
+  TPKeyboardAvoiding: 0d6af20e95e2850f4c621841225b59ec7d8dd852
+  Transporter: a37a287f3b23cea53c61e4d856e8234da74ace63
+  VK-ios-sdk: 7fd48bc5aaa6b96c3197c1987eb6593f2ea67331
+  Whisper: 18b574de21a089c0d664b115f26e0d9ccbbadbab
+  XCGLogger: 53a3efe22e228e8b25ed8184bc074c2b06d48490
+
+PODFILE CHECKSUM: f57b82896444e4cdb63fa2d0462bfccab677ebc9
+
+COCOAPODS: 1.2.0
